@@ -1,0 +1,173 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(47, 47, 48);
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    list-style-type: upper-alpha;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+
+}
+
+.numeros {
+
+    font-size: 50px;
+    font-weight: 600;
+    margin: 40px 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(87, 87, 87);
+
+
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+    
+}
+
+
+.separador{
+    padding: 0 10px;
+}
+
+
+
+#milliseconds{
+    font-size: 30px;
+    list-style-type: upper-alpha;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 500;
+    width: 115px;
+    height: 30px;
+    border-radius: 31px;
+    cursor: pointer;
+    list-style-type: upper-alpha;
+    background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    
+}
+
+#start:hover {
+    opacity: 0.8;
+    color: #0400ff;
+}
+
+#start:active {
+    opacity: 0.6;
+    background: #333ff32a;
+
+}
+
+#stop:hover {
+    opacity: 0.8;
+    color: #ff0000;
+}
+
+#stop:active {
+    opacity: 0.6;
+
+
+}
+
+#resume:hover {
+    opacity: 0.8;
+    color: #00ff00;
+}
+
+#resume:active {
+    opacity: 0.6;
+
+
+}
+
+#reset:hover {
+    opacity: 0.8;
+    color: #ffe601;
+}
+
+#reset:active {
+    opacity: 0.6;
+
+
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .numeros {
+        font-size: 35px;
+
+    }
+
+    .btn {
+
+        font-size: 14px;
+        font-weight: 500;
+        width: 95px;
+        height: 27px;
+
+    }
+
+}
+
+
+@media screen and (max-width:415px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .numeros {
+        font-size: 35px;
+
+    }
+
+    .btn {
+
+        font-size: 13px;
+        font-weight: 500;
+        width: 87px;
+        height: 26px;
+    }
+
+}
